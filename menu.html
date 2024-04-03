@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bar</title>
+    <style>
+        /* Resetting default margin and padding */
+        body, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling the main menu */
+        .menu {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            position: relative;
+        }
+
+        .menu ul li a {
+            display: block;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .menu ul li:hover {
+            background-color: #555;
+        }
+
+        /* Styling the submenus */
+        .submenu {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .submenu li {
+            display: block;
+        }
+
+        .submenu li a {
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .menu ul li:hover .submenu {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li>
+            <a href="#services">Services</a>
+            <ul class="submenu">
+                <li><a href="#service1">Service 1</a></li>
+                <li><a href="#service2">Service 2</a></li>
+                <li><a href="#service3">Service 3</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+            <ul class="submenu">
+                <li><a href="#contact1">Contact 1</a></li>
+                <li><a href="#contact2">Contact 2</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+</body>
+</html>
