@@ -1,47 +1,72 @@
-/* External CSS */
-body {
-    background-color: #f4f4f4;
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, ol, li, table, td {
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+body {
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
 }
 
-h1 {
-    color: #333;
-    text-align: center;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start of the cross axis */
+    height: 100vh;
+}
+
+.left {
+    background-color: #333;
+    color: white;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+.right {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+ img {
+    /* border-radius: 50%; Round profile image  */
+    margin-bottom: 10px;
+    object-fit: cover;
+    width: 80%;
+    height:40%;
+}
+
+.contact, .interest, .achievements, .hobbies {
     margin-bottom: 20px;
 }
 
-.section {
-    margin-bottom: 30px;
+.contact h1, .interest h1, .achievements h1, .hobbies h1 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
 }
 
-.section h2 {
-    color: #555;
-    font-size: 18px;
-    margin-bottom: 10px;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-.section p {
-    color: #777;
-    margin-bottom: 5px;
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
 
-.section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.section ul li {
-    margin-bottom: 5px;
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    .left, .right {
+        width: 100%; /* Take full width on smaller screens */
+    }
 }
