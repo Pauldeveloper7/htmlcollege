@@ -1,0 +1,89 @@
+ /* Resetting default margin and padding */
+
+ body, ul {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url("https://media.istockphoto.com/id/1467669905/photo/photo-of-cute-dog-sitting-on-suitcase-at-airport.jpg?s=612x612&w=0&k=20&c=XvoGjGhQAl0sHVXjgnOEJnbODYSTvXZOOktnvmjyYFw=");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(50px);
+   
+}
+
+/* Styling the main menu */
+.menu {
+    background-color:none;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Styling the submenus */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color:  white;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+}
+/* main */
+.mainbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    width:12%;
+    margin:auto;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    top:90px;
+    flex-direction: column;
+}
+.btn{
+    padding: 9px;
+    border-radius: 12px;
+    background-color: white;
+    border: none;
+}
+.mainbtn a{
+   text-decoration: none;
+}

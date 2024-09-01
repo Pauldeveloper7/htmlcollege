@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="contactstyle/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bebas-neue-regular">
+    <h1>Contact now </h1>
+    <form method="post">
+      <div class="themainform">
+         <div>
+
+     <label for="email">Enter your email</label>
+     <input
+     type="text"
+     name="email"
+     id="email"
+     placeholder="Enter your email"
+     />
+     <span class="messageforemail"></span>
+    </div>
+    <div>
+        <label for="message">Enter the message</label>
+        <textarea  name="message" id="message" cols="30" rows="12"></textarea>
+       
+    </div>
+    <!-- <textarea name="message" id="Contact1" cols="30" rows="10"></textarea> -->
+<div>
+      <div class="buttons">
+        <button type="button" id="btnsubmit">Submit</button>
+      </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

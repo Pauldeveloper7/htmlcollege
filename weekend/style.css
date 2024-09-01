@@ -1,0 +1,10 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/1133819651/photo/the-ocean-breeze-brings-a-life-of-ease.webp?a=1&b=1&s=612x612&w=0&k=20&c=aT-FPbs4QEOMSWJyBYoM28OkyXEI0k9bCcyy7cbbTjU=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+}

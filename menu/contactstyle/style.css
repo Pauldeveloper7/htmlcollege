@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-image: url("https://media.istockphoto.com/id/1467669905/photo/photo-of-cute-dog-sitting-on-suitcase-at-airport.jpg?s=612x612&w=0&k=20&c=XvoGjGhQAl0sHVXjgnOEJnbODYSTvXZOOktnvmjyYFw=");
+}  
+h1{  
+text-align: center; 
+color: black;
+}    
+form{
+    background-color: none;
+    padding: 40px;
+    color: black;
+    margin: auto;
+    width:fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+        label {
+            display: block;
+            /* margin-bottom: 10px; */
+            margin:10px 0px
+        }
+
+        input[type="text"],
+        textarea
+        {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+       .buttons{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+       }
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button[type="reset"] {
+            background-color: #f44336;
+            margin-left: 10px;
+        }
+        .bebas-neue-regular{
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin: auto;
+            background-position: center;
+            /* backdrop-filter: blur(10px); */
+            background-size: cover;
+          }
+          input:focus {
+            outline: none; /* Removes the default outline */
+            box-shadow: none; /* Removes the default box-shadow */
+        }
+               
+/* my styling */
+.themainform{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: column;
+}
+span{
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:red
+}
