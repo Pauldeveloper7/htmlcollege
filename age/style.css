@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background for the page */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Container for centering form */
+.container {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Styling for the input */
+input[type="text"] {
+    width: 90%;
+    padding: 25px;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    text-align: center;
+}
+
+/* Input placeholder color */
+input[type="text"]::placeholder {
+    color: #999;
+}
+input:focus {
+    outline: none; /* Removes the default outline */
+    border: 2px solid #007BFF; /* Optional: Add a custom border, or remove this line if you don't want any border */
+    box-shadow: none; /* Removes the default box-shadow */
+}
+
+/* Styling for the button */
+button{
+    width: 95%;
+    padding: 25px;
+    margin-top: 13px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #6a11cb;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #6a11cb;
+    color: #fff;
+}
+/* span */
+span{
+    color:red;
+    font-size: small;
+}

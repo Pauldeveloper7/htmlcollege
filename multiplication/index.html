@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiplication</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Multiplication Table</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
+    <form id="tableForm" method="post">
+        <label for="num">
+          <h1 id="number"> Enter Number</h1>
+        </label>
+        <input type="number" name="num" id="num">
+        <br>
+        <span id="err"></span>
+        <button type="submit">Submit</button>
+    </form>
+    <div><h1 id="table"> </h1></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>

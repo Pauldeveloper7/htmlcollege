@@ -3,6 +3,8 @@
  body, ul {
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
 }
 .main{
     background-image: url("https://media.istockphoto.com/id/1467669905/photo/photo-of-cute-dog-sitting-on-suitcase-at-airport.jpg?s=612x612&w=0&k=20&c=XvoGjGhQAl0sHVXjgnOEJnbODYSTvXZOOktnvmjyYFw=");

@@ -1,11 +1,29 @@
-console.log("\n welcome to this program")
+var multiplicationtable = "";
+var num;
 $(document).ready(function() {
+    console.log("Welcome to this page");
 
-const num = prompt("Enter a number");
-for (let index = 1; index <=10; index++) {
-    const table = num*index;
-    document.write(num , "*" , index, "= ", table , 
-    "<br>")
-    console.log("\n",num , "*" , index, "= ", table ,"\n")
-}
-})
+    $("#num").on('input', function(e){
+        e.preventDefault();
+        num = $("#num").val();
+        console.log(num);
+        let err = "";
+        if(num <= 0 || num >= 100){
+            err = "Number should be less than 100 and greater than 0";
+        }
+        $("#err").html(err); // Update the span with the message
+    });
+
+    $("#tableForm").on("submit", function(event) {
+        event.preventDefault(); 
+        multiplicationtable = ""; // Reset the table
+        for (let index = 1; index <= 10; index++) {
+            const t = num * index;
+            multiplicationtable += num + " × " + index + " = " + t + "<br>";
+        }
+        if(multiplicationtable){
+            $("#table").html(multiplicationtable);
+            $("#tableForm").hide();
+        }
+    });
+});
