@@ -12,10 +12,6 @@ $(document).ready(function() {
             err = "Number should be less than 100 and greater than 0";
         }
         $("#err").html(err); // Update the span with the message
-    });
-
-    $("#tableForm").on("submit", function(event) {
-        event.preventDefault(); 
         multiplicationtable = ""; // Reset the table
         for (let index = 1; index <= 10; index++) {
             const t = num * index;
@@ -23,7 +19,7 @@ $(document).ready(function() {
         }
         if(multiplicationtable){
             $("#table").html(multiplicationtable);
-            $("#tableForm").hide();
         }
     });
-});
+
+})

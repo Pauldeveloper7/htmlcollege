@@ -49,7 +49,7 @@ $(document).ready(function () {
         break;
       case "sunday":
         message =
-          "The word Sunday comes from the Latin diēs sōlis which means sun's day . The name comes from the Middle English word sunnenday, which comes from the Old English word sunnandæg. ";
+          "The word Sunday comes from the which means sun's day . The name comes from the Middle English word sunnenday, which comes from the Old English word sunnandæg. ";
         break;
       default:
         alert("Invalid day");
@@ -57,12 +57,6 @@ $(document).ready(function () {
     }
     if(message){
         $("#message").html(`${message}`);
-        $("#dayForm").hide()
     }
 });
-// $("#dayForm").hide()
-
-// if(message){
-//   $("#dayForm").hide()
-// }
 });

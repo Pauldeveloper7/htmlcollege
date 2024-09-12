@@ -34,6 +34,7 @@ body {
 }
 #table{
     padding:35px;
+    text-align: center;
 }
 /* Styling for the input */
 input[type="number"] {
@@ -82,4 +83,8 @@ button:hover {
 span{
     color:red;
     font-size: small;
+}
+#container{
+    display:flex;
+    flex-direction: column;
 }

@@ -7,16 +7,19 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-    <form id="dayForm" method="post">
-        <label for="day">
-          <h1 id="h1day"> Enter a day</h1>
-        </label>
-        <input type="text" name="day" id="day">
-        <br>
-        <span id="err"></span>
-        <button type="submit">Submit</button>
-    </form>
-    <div><h1 id="message"> </h1></div>
+    <div class="container">
+
+        <form id="dayForm" method="post">
+            <label for="day">
+                <h1 id="h1day"> Enter a day</h1>
+            </label>
+            <input type="text" name="day" id="day">
+            <br>
+            <span id="err"></span>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="message"></div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>

@@ -34,7 +34,7 @@ h1 {
 
 /* Styling for the input */
 input[type="text"] {
-    width: 90%;
+    width: 80%;
     padding: 25px;
     font-size: 1.2rem;
     border: 2px solid #fff;
@@ -79,4 +79,19 @@ button:hover {
 span{
     color:red;
     font-size: small;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+}
+#message{
+ width: 100%;
+ height:50px;
+ border-radius: 5px;
+ padding:12px;
+ display:block;
+ gap:10;
+ margin-top: 95px;
+ text-align: center;
+ color: #4caf50;
 }

@@ -83,3 +83,7 @@ span{
     color:red;
     font-size: small;
 }
+#container{
+    display: flex;
+    flex-direction: column;
+}
