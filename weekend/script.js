@@ -29,27 +29,27 @@ $(document).ready(function () {
         break;
       case "tuesday":
         message =
-          "Tuesday is a popular day for worshiping Hanuman, Kartikeya, Kali, Durga, Parvati, and Ganesha. ";
+          "Tuesday is a popular day for worshiping Hanuman, Kartikeya, Kali, Durga";
         break;
       case "wednesday":
         message =
-          "In the Catholic tradition, Wednesday is the day of Saint Joseph. In Hinduism, Wednesday is the day of Budha, the god of Mercury, merchants, and merchandise. ";
+          "In the Catholic tradition, Wednesday is the day of Saint Joseph.";
         break;
       case "thursday":
         message =
-          "In Hinduism, Thursday is known as Guruvar and is dedicated to Lord Vishnu, the protector and preserver of the universe.";
+          "In Hinduism, Thursday is known as Guruvar and is dedicated to Lord Vishnu";
         break;
       case "friday":
         message =
-          "The name Friday comes from Friya, the wife of Odin, or from Venus, the Roman goddess of love. ";
+          "The name Friday comes from Friya, the wife of Odin, or from Venus";
         break;
       case "saturday":
         message =
-          "People born on Saturday are said to have a strong sense of independence, self-determination, and justice. They are also said to be competitive, have a strong work ethic, and pay close attention to detail. ";
+          "People born on Saturday are said to have a strong sense of independence ";
         break;
       case "sunday":
         message =
-          "The word Sunday comes from the which means sun's day . The name comes from the Middle English word sunnenday, which comes from the Old English word sunnandæg. ";
+          "The word Sunday comes from the which means sun's day . ";
         break;
       default:
         alert("Invalid day");

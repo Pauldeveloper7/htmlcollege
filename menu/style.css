@@ -15,7 +15,6 @@
     backdrop-filter: blur(50px);
    
 }
-
 /* Styling the main menu */
 .menu {
     background-color:none;
@@ -40,9 +39,6 @@
     text-decoration: none;
     color: black;
 }
-
-
-
 /* Styling the submenus */
 .submenu {
     display: none;

@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background for the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://images.unsplash.com/photo-1504196548992-fcf6354ee1b2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fHw%3D') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Container for centering form */
+.container {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* Styling for the input */
+input[type="date"] {
+    width: 80%;
+    padding: 25px;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    text-align: center;
+}
+
+/* Input placeholder color */
+input[type="date"]::placeholder {
+    color: #999;
+}
+input:focus {
+    outline: none; /* Removes the default outline */
+    border: 2px solid #007BFF; /* Optional: Add a custom border, or remove this line if you don't want any border */
+    box-shadow: none; /* Removes the default box-shadow */
+}
+
+/* Styling for the button */
+button{
+    width: 95%;
+    padding: 25px;
+    margin-top: 13px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #6a11cb;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #6a11cb;
+    color: #fff;
+}
+/* span */
+span{
+    color:red;
+    font-size: small;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+}
+#message{
+ width: 100%;
+ height:50px;
+ border-radius: 5px;
+ padding:12px;
+ display:block;
+ gap:10;
+ margin-top: 95px;
+ text-align: center;
+ color: #4caf50;
+}

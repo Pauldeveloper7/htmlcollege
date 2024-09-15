@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator {
+    background-color: #1e1e2f;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    width: 350px;
+}
+
+#display {
+    width: 90%;
+    height: 60px;
+    font-size: 28px;
+    text-align: right;
+    padding: 15px;
+    border: none;
+    background-color: #2b2b3d;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+
+button {
+    padding: 20px;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(0px);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.zero {
+    grid-column: span 2;
+}
+
+button.operator {
+    background: linear-gradient(to right, #f093fb, #f5576c);
+}
+
+button.equal {
+    background: linear-gradient(to right, #43e97b, #38f9d7);
+}
+
+button.clear, button.delete {
+    background: linear-gradient(to right, #ff0844, #ffb199);
+}
+
